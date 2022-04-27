@@ -1,0 +1,189 @@
+/* main section*/
+.main{
+    background: url(../img/Diseño\ sin\ título.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: white;
+}
+.main h6{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(115, 2, 126);
+    width: 40%;
+    color: white;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(158, 0, 158);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(238, 2, 238);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color: transparent;
+    color: rgb(165, 0, 165);
+    outline: none;
+    border: 1px solid #96037e;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover{
+    background-color: rgb(119, 0, 119);
+    transition: 0.5s;
+    color: white;
+}
+
+.about img{
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+}
+
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: rgb(150, 14, 120);
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: rgb(170, 17, 132);
+    border: 1px solid rgb(182, 59, 145);
+    transition:  0.5s;
+
+
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid rgb(167, 0, 111);background-color: transparent;
+    color: rgb(172, 13, 132);
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color:rgb(182, 0, 127);
+    color: white;
+    border: none;
+    transition:  0.5s;
+}
+
+/*Ofertas*/
+.card-ofertas:hover{
+    border:1px solid rgb(238, 238, 238);
+    transition: 0.5s;
+}
+.card-ofertas{
+    border: none;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+.card-ofertas p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: rgb(179, 50, 136);
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card-portafolio:hover .circle{
+    background-color: rgb(156, 23, 127);
+    color: white;
+    transition: 0.5s;
+}
+Button {
+    height: 70px;
+    width: 100%;
+    outline: none;
+    border: none;background-color: rgb(158, 14, 127);
+    color: rgba(3, 3, 3, 0.993);
+    border-radius: 4px;
+  
+}
+Button:hover{
+    background-color: transparent;
+    color: rgba(77, 70, 70, 0.699);
+    border: 1px solid rgb(145, 9, 115);
+    transition:  0.5s;
+}
+
+#button-ver-mas{
+    
+    font-size: x-large;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+
+
+/*Contactos*/
+.circle:hover{
+    background-color: rgb(165, 26, 142);
+    transition: 0.4s;
+    color: white;
+}
+.contact .btn3{
+    background-color: rgb(153, 18, 108);
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: white;
+    color: rgb(128, 11, 98);
+    transition: 0.4s;
+    border: 1px solid rgb(116, 8, 98);
+}
+
+#email-1{
+    opacity: 0;
+}
+
+/*Diseño UX*/
+#videos{
+    justify-content: center;
+}
+/*Desarrollo Web*/
+#desarrollo-web{
+    margin-left: 32%;
+}
+
+/*Categorias */
+a:link{
+    text-decoration: none;
+    
+  }
+  img{
+      width: 100%;
+    
+  }

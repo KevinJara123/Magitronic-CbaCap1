@@ -1,0 +1,67 @@
+/*Footer*/
+footer {
+  background-color: black;
+  color: lightgray; }
+
+/*NAVBAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f0f0f0; }
+
+html {
+  scroll-behavior: smooth; }
+
+.container a img {
+  width: 50px; }
+
+navbar {
+  background-color: black; }
+
+.nav-link {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none; }
+
+.nav-link:hover {
+  color: white;
+  background-color: #bd0294; }
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  text-decoration: none; }
+
+/*Productos y Servicios*/
+.card {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75); }
+
+.card p {
+  color: gray; }
+
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: lightgray;
+  color: black;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px; }
+
+.card:hover .circle {
+  background-color: #8f2f6f;
+  color: white;
+  transition: 0.5s; }
