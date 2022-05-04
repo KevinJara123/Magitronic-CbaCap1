@@ -1,3 +1,15 @@
+/*MAPS*/
+$redes:(
+   color:rgb(143, 47, 111),
+);
+
+/*MIXIN*/
+@mixin tamanio($anchor,$altor) 
+{
+    height: $altor;
+    width: $anchor;
+}
+
 /*Productos y Servicios*/
 .card{
     border: none;
@@ -10,10 +22,12 @@
     color: gray;
 }
 .circle{
+    /*COLOCANDO MIXIN*/
+    @include tamanio(70px,70px);
     height: 70px;
     width: 70px;
     background-color: lightgray;
-    color: black;
+    color: $color1;
     padding: 12px;
     font-size: 30px;
     border-radius: 50%;
@@ -21,7 +35,8 @@
     margin-bottom: 20px;
 }
 .card:hover .circle{
-    background-color: rgb(143, 47, 111);
+    //COLOCANDO MAPS//
+    background-color:map-get($redes,color);
     color: white;
     transition: 0.5s;
 }

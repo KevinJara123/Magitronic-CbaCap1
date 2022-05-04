@@ -39,6 +39,8 @@ navbar {
   cursor: pointer;
   text-decoration: none; }
 
+/*MAPS*/
+/*MIXIN*/
 /*Productos y Servicios*/
 .card {
   border: none;
@@ -51,6 +53,9 @@ navbar {
   color: gray; }
 
 .circle {
+  /*COLOCANDO MIXIN*/
+  height: 70px;
+  width: 70px;
   height: 70px;
   width: 70px;
   background-color: lightgray;
