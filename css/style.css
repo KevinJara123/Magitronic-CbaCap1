@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Footer*/
 footer {
   background-color: black;
@@ -70,3 +71,176 @@ navbar {
   background-color: #8f2f6f;
   color: white;
   transition: 0.5s; }
+
+/* main section*/
+.main {
+  background: url(../img/magitronic.png) no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+.main h3 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: white; }
+
+.main h6 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-bottom: 3px solid #73027e;
+  width: 40%;
+  color: white; }
+
+.main .bt1 {
+  height: 55px;
+  width: 138px;
+  background-color: #9e009e;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px; }
+
+.main .bt1:hover {
+  background-color: #ee02ee;
+  transition: 0.5s; }
+
+.main .bt2 {
+  height: 55px;
+  width: 138px;
+  background-color: transparent;
+  color: #a500a5;
+  outline: none;
+  border: 1px solid #96037e;
+  font-weight: bold;
+  border-radius: 5px; }
+
+.main .bt2:hover {
+  background-color: #770077;
+  transition: 0.5s;
+  color: white; }
+
+.about img {
+  -webkit-box-shadow: 6px 4px 41px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 4px 41px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 4px 41px -24px rgba(0, 0, 0, 0.75); }
+
+.btn1 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: none;
+  background-color: #960e78;
+  color: white;
+  border-radius: 4px; }
+
+.btn1:hover {
+  background-color: transparent;
+  color: #aa1184;
+  border: 1px solid #b63b91;
+  transition: 0.5s; }
+
+.btn2 {
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: 1px solid #a7006f;
+  background-color: transparent;
+  color: #ac0d84;
+  border-radius: 4px; }
+
+.btn2:hover {
+  background-color: #b6007f;
+  color: white;
+  border: none;
+  transition: 0.5s; }
+
+/*Ofertas*/
+.card-ofertas:hover {
+  border: 1px solid #eeeeee;
+  transition: 0.5s; }
+
+.card-ofertas {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75); }
+
+.card-ofertas p {
+  color: gray; }
+
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: lightgray;
+  color: #b33288;
+  padding: 12px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px; }
+
+.card-portafolio:hover .circle {
+  background-color: #9c177f;
+  color: white;
+  transition: 0.5s; }
+
+Button {
+  height: 70px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #9e0e7f;
+  color: rgba(3, 3, 3, 0.993);
+  border-radius: 4px; }
+
+Button:hover {
+  background-color: transparent;
+  color: rgba(77, 70, 70, 0.699);
+  border: 1px solid #910973;
+  transition: 0.5s; }
+
+#button-ver-mas {
+  font-size: x-large;
+  color: #111111;
+  text-decoration: none; }
+
+/*Contactos*/
+.circle:hover {
+  background-color: #a51a8e;
+  transition: 0.4s;
+  color: white; }
+
+.contact .btn3 {
+  background-color: #99126c;
+  color: white;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 4px; }
+
+.btn3:hover {
+  background: white;
+  color: #800b62;
+  transition: 0.4s;
+  border: 1px solid #740862; }
+
+#email-1 {
+  opacity: 0; }
+
+/*Diseño UX*/
+#videos {
+  justify-content: center; }
+
+/*Desarrollo Web*/
+#desarrollo-web {
+  margin-left: 32%; }
+
+/*Categorias */
+a:link {
+  text-decoration: none; }
+
+img {
+  width: 100%; }
