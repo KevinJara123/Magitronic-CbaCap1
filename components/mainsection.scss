@@ -1,8 +1,13 @@
 /* main section*/
 .main{
-    background: url(../img/magitronic.png) no-repeat;
+    background: url(../media/magitronic.png) no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    
 
 }
 .main h3{
