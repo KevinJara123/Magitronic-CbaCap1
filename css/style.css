@@ -36,6 +36,16 @@ html {
   cursor: pointer;
   text-decoration: none; }
 
+  header {
+    width: 100%;
+    height: 600px;
+    background: #b102a8;
+    background: -webkit-linear-gradient(to right, hsla(303, 100%, 36%, 0.103), hsla(0, 0%, 0%, 0)), url(../img/magitronic.png);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0), hsla(298, 100%, 29%, 0)), url(../img/magitronic.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 
 .card {
   border: none;
@@ -66,7 +76,37 @@ html {
   color: white;
   transition: 0.5s; }
 
-/* main section*/
+/*main section*/
+.textos-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 150px;
+}
+.boton5 {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  padding-top: 10px;
+  background: #b400a5;
+  position: relative;
+  border: 2px solid #96017d;
+  outline: 1px solid;
+  outline-color: rgba(151, 0, 156, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.boton5:hover {
+  box-shadow: inset 0 0 20px #b400a5, 0 0 20px #96017d;
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff; 
+}
+/* main section
 .main {
   background: url(../img/magitronic.png) no-repeat;
   background-size: cover;
@@ -148,7 +188,7 @@ html {
   color: white;
   border: none;
   transition: 0.5s; }
-
+*/
 /*Ofertas*/
 .card-ofertas:hover {
   border: 1px solid #eeeeee;
@@ -157,12 +197,13 @@ html {
 .card-ofertas {
   border: none;
   outline: none;
+  padding-bottom: 10px;
   -webkit-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
   box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75); }
 
 .card-ofertas p {
-  color: gray; }
+  color: rgba(187, 0, 156, 0.692); }
 
 .circle {
   height: 70px;
@@ -180,25 +221,6 @@ html {
   color: white;
   transition: 0.5s; }
 
-Button {
-  height: 70px;
-  width: 100%;
-  outline: none;
-  border: none;
-  background-color: #9e0e7f;
-  color: rgba(3, 3, 3, 0.993);
-  border-radius: 4px; }
-
-Button:hover {
-  background-color: transparent;
-  color: rgba(77, 70, 70, 0.699);
-  border: 1px solid #910973;
-  transition: 0.5s; }
-
-#button-ver-mas {
-  font-size: x-large;
-  color: #111111;
-  text-decoration: none; }
 
 /*Contactos*/
 .circle:hover {
@@ -257,4 +279,15 @@ footer {
 
 .text-uppercase{
   margin-left: 10px;
+}
+
+@media screen and (max-width:900px){
+  header{
+      background-position: center;
+  }
+}
+@media screen and (max-width:500px){
+  header {
+    background-position: center;
+  }
 }
